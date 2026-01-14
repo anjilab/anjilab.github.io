@@ -6,7 +6,7 @@ subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
-  image: prof_pic_anjila.jpg
+  image: profile_pic_anjila.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
     <center>Ph.D. Student, GSU</center>
