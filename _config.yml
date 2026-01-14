@@ -4,7 +4,7 @@
 
 title: Anjila Budathoki # the website title (if blank, full name will be used instead)
 first_name: Anjila
-middle_name: 
+middle_name:
 last_name: Budathoki
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
@@ -69,7 +69,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 github_username: anjilab # your GitHub user name
 gitlab_username: # your GitLab user name
-x_username:  # your X handle
+x_username: # your X handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: # your LinkedIn user name
 telegram_username: # your Telegram user name
@@ -105,7 +105,6 @@ wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.
 
 contact_note: >
   Reach out for potential collaborations or questions about my work.
-
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
