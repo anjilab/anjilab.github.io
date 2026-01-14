@@ -1,20 +1,17 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
-description: 
+title: Publications
+description:
 nav: true
 nav_order: 1
 ---
-
 <!-- _pages/publications.md -->
 
-<!-- Bibsearch Feature -->
-
-{% include bib_search.liquid %}
+Take a look at my [Google Scholar](https://scholar.google.com/citations?user=z6Qj0RkAAAAJ) for updated publications and citations. * denotes equal contribution.
 
 <div class="publications">
 
-{% bibliography %}
+{% bibliography -f {{ site.scholar.bibliography }} %}
 
 </div>
