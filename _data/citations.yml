@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-02-04'
+  last_updated: '2026-02-13'
 papers:
   z6Qj0RkAAAAJ:HoB7MX3m0LUC:
     citations: 0
@@ -10,6 +10,6 @@ papers:
     title: Adversarial Robustness Analysis of Vision-Language Models in Medical Image Segmentation
     year: '2025'
   z6Qj0RkAAAAJ:vV6vV6tmYwMC:
-    citations: 3
+    citations: 4
     title: "How does acknowledging users\u2019 preferences impact AI\u2019s ability to make conflicting recommendations?"
     year: '2025'
