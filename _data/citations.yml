@@ -1,15 +1,15 @@
 metadata:
-  last_updated: '2026-02-13'
+  last_updated: '2026-03-02'
 papers:
   z6Qj0RkAAAAJ:HoB7MX3m0LUC:
     citations: 0
     title: Unobtrusive Universal Acoustic Adversarial Attacks on Speech Foundation Models in the Wild
     year: '2025'
   z6Qj0RkAAAAJ:g5m5HwL7SMYC:
-    citations: 2
+    citations: 3
     title: Adversarial Robustness Analysis of Vision-Language Models in Medical Image Segmentation
     year: '2025'
   z6Qj0RkAAAAJ:vV6vV6tmYwMC:
-    citations: 4
+    citations: 5
     title: "How does acknowledging users\u2019 preferences impact AI\u2019s ability to make conflicting recommendations?"
     year: '2025'
