@@ -1,10 +1,14 @@
 metadata:
-  last_updated: '2026-03-02'
+  last_updated: '2026-04-03'
 papers:
   z6Qj0RkAAAAJ:HoB7MX3m0LUC:
     citations: 0
     title: Unobtrusive Universal Acoustic Adversarial Attacks on Speech Foundation Models in the Wild
     year: '2025'
+  z6Qj0RkAAAAJ:SeFeTyx0c_EC:
+    citations: 0
+    title: 'DistillLens: Symmetric Knowledge Distillation Through Logit Lens'
+    year: '2026'
   z6Qj0RkAAAAJ:g5m5HwL7SMYC:
     citations: 3
     title: Adversarial Robustness Analysis of Vision-Language Models in Medical Image Segmentation
