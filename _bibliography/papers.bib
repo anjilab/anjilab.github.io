@@ -1,3 +1,77 @@
+@inproceedings{budathoki-etal-2026-understanding,
+    title = "Understanding the Role of Prompt Template in Knowledge Distillation for Safety Alignment",
+    author = "Budathoki, Anjila  and
+      Dhakal, Manish  and
+      Ampel, Benjamin M.  and
+      Ding, Yi",
+    editor = "Lee, Hung-Yi  and
+      Dev, Sunipa  and
+      Li, Jessy  and
+      Elliott, Desmond",
+    booktitle = "Findings of the {A}ssociation for {C}omputational {L}inguistics: {EMNLP} 2026",
+    month = oct,
+    year = "2026",
+    address = "Budapest, Hungary",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.findings-emnlp.1399/",
+    doi = "10.18653/2026.findings-emnlp.1399",
+    pages = "29801--29817",
+    ISBN = "979-8-89176-462-0",
+    abstract = "Prior research has demonstrated that the choice of prompt template during Supervised Fine-Tuning (SFT) significantly impacts the robustness of safety alignment afterwards. However, the influence of template selection during Knowledge Distillation (KD) from teacher to student remains largely unexplored. Thus, we fill this gap by analyzing how different template configurations influence the pre-existing safety alignment of the student. We observe a significant degradation of safety alignment present in the aligned base instruct-tuned model. Specifically, we find that utilizing chat templates renders the model more compliant with harmful queries compared to a non-chat template. These findings are consistent across three models: LLaMA, Gemma and Qwen model families and are evaluated across multiple safety benchmarks. We further show that using a non-chat template during distillation better preserves the base student{'}s internal representations, while chat template distillation induces a larger representational shift.\par Code: https://github.com/anjilab/role-of-prompt-template-in-kd",
+    abbr={EMNLP Findings},
+    selected={true}
+}
+
+@inproceedings{kc-budathoki-2026-handoff,
+    title = "Handoff Debt: The Rediscovery Cost When Coding Agents Take Over Interrupted Tasks",
+    author = "KC, Dipesh  and
+      Budathoki, Anjila",
+    editor = "Lee, Hung-Yi  and
+      Dev, Sunipa  and
+      Li, Junyi Jessy  and
+      Elliott, Desmond",
+    booktitle = "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
+    month = oct,
+    year = "2026",
+    address = "Budapest, Hungary",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.emnlp-main.738/",
+    doi = "10.18653/2026.emnlp-main.738",
+    pages = "17110--17126",
+    ISBN = "979-8-89176-459-0",
+    abstract = "Coding-agent benchmarks evaluate whether a single uninterrupted agent can resolve a repository issue. Real software work is messier: tasks are interrupted, reassigned, reviewed, and resumed from partial states left by another agent or engineer. We study this missing dimension through handoff debt: the rediscovery cost imposed when a predecessor{'}s work is opaque or incomplete. Our takeover protocol interrupts a coding agent at deterministic handoff points, freezes the repository, and evaluates successor agents under four handoff views: repository state only, raw trace, summary notes, and structured notes. Across 75 source tasks, the protocol generates 181 handoff-point tasks and 724 takeover runs per successor model. Across three successor models, context-bearing handoffs reduce median agent events by 20-59{\%} and cumulative prompt tokens by 42-63{\%} relative to repository-only takeover. Solved-rate effects are smaller and model-dependent, but efficiency gains are consistent. These findings suggest that coding-agent evaluation should report not only whether a task is solved, but also how costly that work is for another agent to resume.",
+    abbr={EMNLP},
+    selected={true}
+    
+}
+
+@inproceedings{jinadu-etal-2026-authority,
+    title = "Authority Bias in Conversational Search Engines for Academic Paper Recommendation.",
+    author = "Jinadu, Uthman  and
+      Ghazvinian, Parsa  and
+      Budathoki, Anjila  and
+      Ampel, Benjamin M.  and
+      Sunderraman, Rajshekhar  and
+      Ding, Yi",
+    editor = "Lee, Hung-Yi  and
+      Dev, Sunipa  and
+      Li, Junyi Jessy  and
+      Elliott, Desmond",
+    booktitle = "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing",
+    month = oct,
+    year = "2026",
+    address = "Budapest, Hungary",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.emnlp-main.1069/",
+    doi = "10.18653/2026.emnlp-main.1069",
+    pages = "24548--24568",
+    ISBN = "979-8-89176-459-0",
+    abstract = "Large Language Models (LLMs) are increasingly used as conversational search engines for academic literature, yet whether they judge papers on content or on authority signals has not been tested causally. We investigate \textit{authority bias}: systematic preference for papers based on author prestige, venue, and citations rather than content. Holding title and abstract constant, we vary authority metadata across three counterfactual conditions (original, flipped, boosted) over eight LLMs (five open-weight and three frontier closed-weight) in an in-context, single-turn, top-1 recommendation setting. Our experiments show that authority bias is substantial and directional, varies markedly across models, and is only partially addressable through prompt-level debiasing. We further document a say-do gap: debiasing instructions suppress authority mentions far faster than authority-driven flips, so surface auditing systematically underestimates behavioral bias.\par Code: https://github.com/jinaduuthman/Authority-Bias-In-Conversational-Search-Engine\par Data: https://huggingface.co/datasets/uthmanjinadu/authority-bias-paper-recommendation",
+    abbr={EMNLP},
+    selected={true}
+}
+
+
 @article{marti2025does,
   title={How does acknowledging users’ preferences impact AI’s ability to make conflicting recommendations?},
   author={Marti, Deniz and Budathoki, Anjila and Ding, Yi and Lucas, Gale and Nelson, David},
@@ -15,7 +89,7 @@
   title={Adversarial Robustness Analysis of Vision-Language Models in Medical Image Segmentation},
   author={Budathoki, Anjila and Dhakal, Manish},
   journal={arXiv preprint arXiv:2505.02971},
-  selected={true},
+  selected={false},
   year={2025},
   abbr={arXiv}
 }
@@ -26,7 +100,7 @@
   author={Fassett, Jayden and Budathoki, Anjila and Morris, Jack and Hu, Qin and Ding, Yi},
   booktitle={Proceedings of the 27th International Conference on Multimodal Interaction},
   pages={424--433},
-  selected={true},
+  selected={false},
   year={2025},
   abbr={ICMI}
 }

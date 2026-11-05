@@ -21,8 +21,14 @@
   type: time_table
   contents:
     - title: Doctoral Student
+      institution: University of Tennessee, Knoxville
+      year: 2026 - ongoing
+      description:
+        - "Topic: AI interaction and alignment."
+        - Advised by Dr. Yi Ding
+    - title: Master's Student
       institution: Georgia State University
-      year: 2023 - ongoing
+      year: 2023 - 2026
       description:
         - "Topic: AI interaction and alignment."
         - Advised by Dr. Yi Ding
